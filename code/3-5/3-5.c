@@ -12,7 +12,7 @@ void my_print(char type, void* x) {
 
 int main() {
     int a = 0x61;
-    int b = 'b';
+    char b = 'b';
     char* c = "hello world";
 
     my_print('C', &a);
